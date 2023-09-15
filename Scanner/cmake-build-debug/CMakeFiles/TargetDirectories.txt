@@ -1,0 +1,3 @@
+C:/Users/santa/CLionProjects/CS236/Scanner/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/santa/CLionProjects/CS236/Scanner/cmake-build-debug/CMakeFiles/Scanner.dir
+C:/Users/santa/CLionProjects/CS236/Scanner/cmake-build-debug/CMakeFiles/edit_cache.dir

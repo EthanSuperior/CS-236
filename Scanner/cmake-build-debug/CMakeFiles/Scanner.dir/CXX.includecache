@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/santa/CLionProjects/CS236/Scanner/Scanner.cpp
+Scanner.h
+C:/Users/santa/CLionProjects/CS236/Scanner/Scanner.h
+
+C:/Users/santa/CLionProjects/CS236/Scanner/Scanner.h
+string
+-
+vector
+-
+fstream
+-
+iostream
+-
+Token.h
+C:/Users/santa/CLionProjects/CS236/Scanner/Token.h
+
+C:/Users/santa/CLionProjects/CS236/Scanner/Token.h
+string
+-
+utility
+-
+sstream
+-
+
+C:/Users/santa/CLionProjects/CS236/Scanner/main.cpp
+iostream
+-
+vector
+-
+Scanner.h
+C:/Users/santa/CLionProjects/CS236/Scanner/Scanner.h
+Token.h
+C:/Users/santa/CLionProjects/CS236/Scanner/Token.h
+

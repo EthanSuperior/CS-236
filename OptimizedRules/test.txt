@@ -1,0 +1,31 @@
+Schemes:
+A(a,b)
+rA(a,b)
+Reflexive(a,b)
+
+colB(b)
+Symmetric(a,b)
+Transitive(a,b)
+SymTran(a,b)
+
+Facts:
+A('1','2').
+
+Rules:
+Symmetric(X,Y) :- A(X,Y).
+Symmetric(X,Y) :- Symmetric(Y,X).
+rA(a,b) :- A(b,a).
+Reflexive(X,Y) :- A(X,Z),rA(Z,Y).
+Transitive(X,Y) :- A(X,Y).
+Transitive(X,Z) :- Transitive(X,Y),Transitive(Y,Z).
+SymTran(X,Y) :- SymTran(Y,X).
+SymTran(X,Z) :- SymTran(X,Y),SymTran(Y,Z).
+SymTran(X,Y) :- A(Y,X).
+
+Queries:
+Symmetric(Q,R)?
+Reflexive(Q,R)?
+Transitive('1',P)?
+A('1','2')?
+Symmetric('2','1')?
+SymTran(X,Y)?
